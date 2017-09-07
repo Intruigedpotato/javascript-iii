@@ -37,7 +37,15 @@ var employees = [{
 //  3. Return the updated employee array.
 
 // Code here
-
+function employeeUpdater(){
+  for (var i =0; i < employees.length; i++){
+    if (employees[{}] =="Theo"){
+employees.splice(i,1);
+    } else if ("firstName" == "Lorie"){
+    employees.map("department" = "HR");  
+    }
+  }return employees;
+}
 
 
 
