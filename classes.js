@@ -88,7 +88,9 @@ Everytime they fire an employee they get a bonus of $100 add to their .
 
 call you class ProgressiveManager
 */
-
+class ProgressiveManager{
+    
+}
 
 
 
