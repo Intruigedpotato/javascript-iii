@@ -56,13 +56,13 @@ class Manager{
         this.last_name = last_name;
         this.email = email;
         this.age = age;
-        this.reports = reports =[];
+        this.reports=[];
     }
-    hire(){
-        this.reports.unshift(this.employee);
+    hire(emp){
+        this.reports.push(emp);
     }
     fire(index){
- delete this.Employee[i];
+ this.reports.splice(index,1);
     }
 }
 
